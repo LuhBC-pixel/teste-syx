@@ -10,12 +10,12 @@ body {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: sans-serif;
 }
 
 input,
 textarea {
-  font-family: 'Open Sans', sans-serif;
+  font-family: sans-serif;
 }
 
 a {
