@@ -25,7 +25,9 @@ export const CardCases = ({ information, title, text, price }) => {
         <Text>Resultando um ganho adicional de </Text>
         <Price>{price}</Price>
       </Box>
-      <Image />
+      <Image>
+        <img src='klabin.png' alt='logo klabin' width={58} height={40} />
+      </Image>
     </Container>
   );
 };

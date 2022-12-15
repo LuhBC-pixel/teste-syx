@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 import { COLORS, FONTS } from '../../styles/theme';
-import klabin from '../../assets/Klabin.png';
+import klabin from '../../../public/klabin.png';
 
 export const Container = styled.div`
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 0px 10px #00000029;
   border-radius: 5px;
   width: 18.375rem;
-  height: 21.875rem;
+  height: 21.35rem;
   padding: 1.563rem;
 `;
 
@@ -77,7 +77,7 @@ export const Price = styled.span`
 `;
 
 export const Image = styled.div`
-  /* width: 3.625rem;
-  height: 2.5rem; */
-  background-image: url(${klabin});
+  margin-top: 1.85rem;
+  margin-bottom: 0;
+  text-align: left;
 `;
