@@ -5,7 +5,8 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.125rem;
+  gap: 1rem;
+  margin-left: 6.5rem;
 `;
 
 export const Title = styled.h2`

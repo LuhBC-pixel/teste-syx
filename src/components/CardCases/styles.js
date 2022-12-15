@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { COLORS, FONTS } from '../../styles/theme';
+import klabin from '../../assets/Klabin.png';
 
 export const Container = styled.div`
   background: #ffffff 0% 0% no-repeat padding-box;
@@ -20,8 +21,12 @@ export const Information = styled.p`
   font-family: ${FONTS.FontfamilyIbmPlexSans};
   color: ${COLORS.Color063c3b};
   text-align: center;
-  width: 108px;
-  height: 23px;
+  width: 6.75rem;
+  height: 1.438rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.125rem;
 `;
 
 export const ContainerMain = styled.div`
@@ -29,12 +34,33 @@ export const ContainerMain = styled.div`
   text-align: left;
 `;
 
+export const Title = styled.h3`
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: ${FONTS.FontfamilyWorkSans};
+  text-align: left;
+  color: ${COLORS.Color181817};
+`;
+
+export const Subtitle = styled.p`
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: ${FONTS.FontfamilyIbmPlexSans};
+  color: ${COLORS.Color181817};
+  text-align: left;
+  line-height: 0.5;
+`;
+
 export const Box = styled.div`
   width: 14.313rem;
   height: 2.438rem;
+  margin-top: 1.5rem;
+  display: block;
 `;
 
-export const Text = styled.p`
+export const Text = styled.span`
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -42,15 +68,16 @@ export const Text = styled.p`
   text-align: left;
 `;
 
-export const Price = styled.p`
+export const Price = styled.span`
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 16px;
   font-family: ${FONTS.FontfamilyWorkSans};
   color: ${COLORS.Color181817};
 `;
 
-export const Image = styled.img`
-  width: 3.625rem;
-  height: 2.5rem;
+export const Image = styled.div`
+  /* width: 3.625rem;
+  height: 2.5rem; */
+  background-image: url(${klabin});
 `;

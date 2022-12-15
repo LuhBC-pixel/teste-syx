@@ -9,13 +9,13 @@ export function Cases() {
         <CardCases
           information='Metal Mecânica'
           title='125%'
-          text1='Em 5 dias, vendemos posições porta pallets.'
+          text='Em 5 dias, vendemos posições porta pallets.'
           price='R$567.686,80'
         />
         <CardCases
           information='Infraestrutura'
           title='192%'
-          text1='Em 15 dias, vendemos 5008ton. De sucata metálica.'
+          text='Em 15 dias, vendemos 5008ton. De sucata metálica.'
           price='R$4.8M'
         />
         <CardCases
