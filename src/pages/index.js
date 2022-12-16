@@ -6,7 +6,9 @@ import { DivCases } from '../components/styles';
 export default function Home() {
   return (
     <>
-      <Navbar />
+      <nav>
+        <Navbar />
+      </nav>
       <Hero />
       <div>
         <DivCases>

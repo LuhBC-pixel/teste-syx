@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { COLORS, FONTS } from '../../styles/theme';
-import klabin from '../../../public/klabin.png';
 
 export const Container = styled.div`
   background: #ffffff 0% 0% no-repeat padding-box;
