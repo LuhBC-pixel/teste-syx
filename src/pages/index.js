@@ -1,6 +1,7 @@
 import { Cases } from '../components/Cases';
 import { Hero } from '../components/Hero';
 import { Navbar } from '../components/Navbar';
+import { Recovery } from '../components/Recovery';
 import { DivCases } from '../components/styles';
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
           <Cases />
         </DivCases>
         <div>
-          <h2>Recuperação de valores acima do esperado</h2>
+          <Recovery />
         </div>
         <div>
           <h2>
