@@ -19,9 +19,7 @@ export default function Home() {
           <Recovery />
         </div>
         <div>
-          <h2>
-            <span></span> Quem compra uma vez… Compra mais!
-          </h2>
+         
         </div>
       </div>
       <div></div>
