@@ -1,4 +1,5 @@
 import { Cases } from '../components/Cases';
+import { Comment } from '../components/Comment';
 import { Hero } from '../components/Hero';
 import { Navbar } from '../components/Navbar';
 import { Recovery } from '../components/Recovery';
@@ -19,7 +20,7 @@ export default function Home() {
           <Recovery />
         </div>
         <div>
-         
+          <Comment />
         </div>
       </div>
       <div></div>

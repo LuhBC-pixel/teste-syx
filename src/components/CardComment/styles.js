@@ -5,8 +5,8 @@ export const Container = styled.div`
   border: 4px solid ${COLORS.Color063c3b};
   border-radius: 8px;
   width: 24.813rem;
-  max-height: 21.063rem;
   min-height: 11.813rem;
+  height: 100%;
   padding: 1.25rem;
 `;
 
@@ -17,10 +17,12 @@ export const Text = styled.p`
   font-weight: medium;
   text-align: left;
   color: ${COLORS.Color063c3b};
+  margin-bottom: 1.25rem;
 `;
 
 export const Content = styled.div`
   display: flex;
+  align-items: center;
 `;
 
 export const Image = styled.div`
@@ -28,6 +30,7 @@ export const Image = styled.div`
   border-radius: 5px 5px 15px 5px;
   width: 4.813rem;
   height: 4.813rem;
+  margin-right: 1.25rem;
 `;
 
 export const Box = styled.div`
