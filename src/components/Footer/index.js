@@ -9,6 +9,7 @@ import {
   Address,
   Box,
   BoxMain,
+  BoxSubtitle,
   BoxTitle,
   Container,
   ContainerFooter,
@@ -28,7 +29,11 @@ export function Footer() {
           <BoxMain>
             <BoxTitle>
               <Title>syx</Title>
-              <SubTitle>GLOBAL REUSE NETWORK</SubTitle>
+              <BoxSubtitle>
+                <SubTitle>GLOBAL</SubTitle>
+                <SubTitle>REUSE</SubTitle>
+                <SubTitle>NETWORK</SubTitle>
+              </BoxSubtitle>
             </BoxTitle>
             <Address>Rua Sete de Setembro, 1271</Address>
             <Address>Campo Largo - PR - Brasil</Address>
@@ -48,7 +53,7 @@ export function Footer() {
             <Link>O que fazemos</Link>
             <Link>Imprensa</Link>
           </Content>
-          <Content>
+          <Content marginBottom='7.5'>
             <MainTitle>Redes Sociais</MainTitle>
             <Box>
               <BsInstagram size={20} color='#fff' />
