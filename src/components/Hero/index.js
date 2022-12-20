@@ -1,6 +1,7 @@
 import {
   Container,
   ContainerContent,
+  ContainerImage,
   ContainerTitle,
   Content,
   Image,
@@ -25,9 +26,9 @@ export function Hero() {
           </Content>
         </ContainerContent>
       </div>
-      <div>
+      <ContainerImage>
         <Image></Image>
-      </div>
+      </ContainerImage>
     </Container>
   );
 }

@@ -7,6 +7,16 @@ export const Container = styled.div`
   align-items: center;
   padding: 1.5rem 10rem 1.5rem;
   gap: 33.69rem;
+  width: 100%;
+
+  @media (max-width: 900px) {
+    gap: 10rem;
+    width: 100vw;
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 `;
 
 export const Logo = styled.h1`
