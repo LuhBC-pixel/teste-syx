@@ -72,6 +72,13 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   gap: 1.25rem;
+
+  @media (max-width: 900px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
 `;
 
 export const ContainerCheckbox = styled.div`

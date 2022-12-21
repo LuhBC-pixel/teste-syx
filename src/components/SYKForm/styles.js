@@ -7,6 +7,18 @@ export const Container = styled.div`
   justify-content: center;
   width: 100%;
   margin-top: 6.25rem;
+
+  @media (max-width: 900px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  @media (max-width: 600px) {
+    width: 600px;
+  }
 `;
 
 export const ContainerTitle = styled.div`
@@ -16,6 +28,14 @@ export const ContainerTitle = styled.div`
   justify-content: center;
   width: 28.125rem;
   margin-right: 4.375rem;
+
+  @media (max-width: 900px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 `;
 
 export const Title = styled.h2`
@@ -35,4 +55,11 @@ export const Subtitle = styled.span`
   font-size: 30px;
   font-family: ${FONTS.FontfamilyWorkSans};
   width: 28.125rem;
+
+  @media (max-width: 900px) {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 `;
