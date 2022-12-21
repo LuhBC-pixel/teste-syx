@@ -10,6 +10,11 @@ export const Title = styled.h2`
   margin-bottom: 2.063rem;
   margin-left: 10rem;
   margin-top: 9.75rem;
+
+  @media (max-width: 600px) {
+    width: 100%;
+    text-align: center;
+  }
 `;
 
 export const Container = styled.div`
@@ -18,6 +23,22 @@ export const Container = styled.div`
   align-items: center;
   gap: 1rem;
   margin-left: 6rem;
+
+  @media (max-width: 900px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 600px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 10rem;
+  }
 `;
 
 export const Separator = styled.div`

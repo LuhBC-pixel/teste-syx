@@ -11,9 +11,18 @@ export const Container = styled.div`
   @media (max-width: 900px) {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
     width: 100vw;
+  }
+
+  @media (max-width: 600px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 10rem;
   }
 `;
 
@@ -27,11 +36,12 @@ export const Title = styled.h2`
   margin-bottom: 3.125rem;
 
   @media (max-width: 900px) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: 100%;
     text-align: left;
+  }
+
+  @media (max-width: 600px) {
+    width: 100%;
+    text-align: center;
   }
 `;

@@ -6,6 +6,10 @@ export const Card = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 900px) {
+    margin-bottom: 6rem;
+  }
 `;
 
 export const Container = styled.div`
