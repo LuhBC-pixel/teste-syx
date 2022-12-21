@@ -7,6 +7,14 @@ export const Container = styled.div`
   background-color: #191919;
   padding: 4rem 12.5rem;
   margin-top: 7.5rem;
+
+  @media (max-width: 900px) {
+    width: 900px;
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 `;
 
 export const ContainerFooter = styled.div`
@@ -27,6 +35,12 @@ export const BoxTitle = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 900px) {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
 `;
 
 export const Title = styled.h3`
@@ -45,6 +59,10 @@ export const BoxSubtitle = styled.div`
   justify-content: center;
   width: 5.313rem;
   margin-left: 1.688rem;
+
+  @media (max-width: 900px) {
+    display: none;
+  }
 `;
 
 export const SubTitle = styled.p`
@@ -78,6 +96,10 @@ export const Content = styled.div`
   gap: 0.625rem;
   margin-bottom: ${({ marginBottom }) =>
     marginBottom ? `${marginBottom}rem` : '4rem'};
+
+  @media (max-width: 900px) {
+    margin-left: 1.5rem;
+  }
 `;
 
 export const MainTitle = styled.span`

@@ -14,10 +14,16 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-left: 1rem;
   }
 
   @media (max-width: 600px) {
-    width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10rem;
   }
 `;
 
@@ -61,5 +67,15 @@ export const Subtitle = styled.span`
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  @media (max-width: 600px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+    margin-bottom: 0.5rem;
   }
 `;
